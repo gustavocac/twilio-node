@@ -123,41 +123,41 @@ declare class VoiceResponse {
 
 declare namespace VoiceResponse {
 
-  type ConferenceTrim = 'trim-silence'|'do-not-trim';
-
   type GatherLanguage = 'af-ZA'|'id-ID'|'ms-MY'|'ca-ES'|'cs-CZ'|'da-DK'|'de-DE'|'en-AU'|'en-CA'|'en-GB'|'en-IN'|'en-IE'|'en-NZ'|'en-PH'|'en-ZA'|'en-US'|'es-AR'|'es-BO'|'es-CL'|'es-CO'|'es-CR'|'es-EC'|'es-SV'|'es-ES'|'es-US'|'es-GT'|'es-HN'|'es-MX'|'es-NI'|'es-PA'|'es-PY'|'es-PE'|'es-PR'|'es-DO'|'es-UY'|'es-VE'|'eu-ES'|'il-PH'|'fr-CA'|'fr-FR'|'gl-ES'|'hr-HR'|'zu-ZA'|'is-IS'|'it-IT'|'lt-LT'|'hu-HU'|'nl-NL'|'nb-NO'|'pl-PL'|'pt-BR'|'pt-PT'|'ro-RO'|'sk-SK'|'sl-SI'|'fi-FI'|'sv-SE'|'vi-VN'|'tr-TR'|'el-GR'|'bg-BG'|'ru-RU'|'sr-RS'|'uk-UA'|'he-IL'|'ar-IL'|'ar-JO'|'ar-AE'|'ar-BH'|'ar-DZ'|'ar-SA'|'ar-IQ'|'ar-KW'|'ar-MA'|'ar-TN'|'ar-OM'|'ar-PS'|'ar-QA'|'ar-LB'|'ar-EG'|'fa-IR'|'hi-IN'|'th-TH'|'ko-KR'|'cmn-Hant-TW'|'yue-Hant-HK'|'ja-JP'|'cmn-Hans-HK'|'cmn-Hans-CN';
-
-  type SipEvent = 'initiated'|'ringing'|'answered'|'completed';
-
-  type RejectReason = 'rejected'|'busy';
 
   type ConferenceBeep = 'true'|'false'|'onEnter'|'onExit';
 
-  type ConferenceEvent = 'start'|'end'|'join'|'leave'|'mute'|'hold'|'speaker';
-
-  type ConferenceRecord = 'do-not-record'|'record-from-start';
-
-  type SayVoice = 'man'|'woman'|'alice';
-
-  type NumberEvent = 'initiated'|'ringing'|'answered'|'completed';
-
-  type RecordTrim = 'trim-silence'|'do-not-trim';
-
-  type ConferenceRecordingEvent = 'started'|'stopped'|'paused'|'resumed'|'completed'|'failed';
-
-  type SayLanguage = 'da-DK'|'de-DE'|'en-AU'|'en-CA'|'en-GB'|'en-IN'|'en-US'|'ca-ES'|'es-ES'|'es-MX'|'fi-FI'|'fr-CA'|'fr-FR'|'it-IT'|'ja-JP'|'ko-KR'|'nb-NO'|'nl-NL'|'pl-PL'|'pt-BR'|'pt-PT'|'ru-RU'|'sv-SE'|'zh-CN'|'zh-HK'|'zh-TW';
+  type SipEvent = 'initiated'|'ringing'|'answered'|'completed';
 
   type DialRingTone = 'at'|'au'|'bg'|'br'|'be'|'ch'|'cl'|'cn'|'cz'|'de'|'dk'|'ee'|'es'|'fi'|'fr'|'gr'|'hu'|'il'|'in'|'it'|'lt'|'jp'|'mx'|'my'|'nl'|'no'|'nz'|'ph'|'pl'|'pt'|'ru'|'se'|'sg'|'th'|'uk'|'us'|'us-old'|'tw'|'ve'|'za';
 
+  type GatherInput = 'dtmf'|'speech';
+
+  type ConferenceTrim = 'trim-silence'|'do-not-trim';
+
+  type ConferenceRegion = 'us1'|'ie1'|'sg1'|'br1'|'au1'|'jp1';
+
   type DialRecordingEvent = 'in-progress'|'completed'|'failed';
+
+  type RejectReason = 'rejected'|'busy';
+
+  type ConferenceRecord = 'do-not-record'|'record-from-start';
+
+  type ConferenceEvent = 'start'|'end'|'join'|'leave'|'mute'|'hold'|'speaker';
+
+  type ConferenceRecordingEvent = 'started'|'stopped'|'paused'|'resumed'|'completed'|'failed';
+
+  type RecordTrim = 'trim-silence'|'do-not-trim';
 
   type DialRecord = 'do-not-record'|'record-from-answer'|'record-from-ringing'|'record-from-answer-dual'|'record-from-ringing-dual';
 
+  type NumberEvent = 'initiated'|'ringing'|'answered'|'completed';
+
   type ClientEvent = 'initiated'|'ringing'|'answered'|'completed';
 
-  type GatherInput = 'dtmf'|'speech';
+  type SayLanguage = 'da-DK'|'de-DE'|'en-AU'|'en-CA'|'en-GB'|'en-IN'|'en-US'|'ca-ES'|'es-ES'|'es-MX'|'fi-FI'|'fr-CA'|'fr-FR'|'it-IT'|'ja-JP'|'ko-KR'|'nb-NO'|'nl-NL'|'pl-PL'|'pt-BR'|'pt-PT'|'ru-RU'|'sv-SE'|'zh-CN'|'zh-HK'|'zh-TW';
 
-  type ConferenceRegion = 'us1'|'ie1'|'sg1'|'br1'|'au1'|'jp1';
+  type SayVoice = 'man'|'woman'|'alice';
 
   type DialTrim = 'trim-silence'|'do-not-trim';
 

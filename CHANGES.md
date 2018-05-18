@@ -1,6 +1,13 @@
 twilio-node changelog
 =====================
 
+[2018-05-18] Version 3.17.1
+----------------------------
+**Api**
+- Add more programmable video categories to usage records
+- Add 'include_subaccounts' parameter to all variation of usage_record fetch
+
+
 [2018-05-11] Version 3.17.0
 ----------------------------
 **Library**
